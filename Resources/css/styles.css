@@ -1,0 +1,49 @@
+/* all elements go Helvetica */
+* {
+    font-family: Helvetica;
+}
+
+/* header text @ 100px seems ridiculously large but #SpecLife */
+#header {
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+}
+
+/*for some reason, it won't let me reference this locally, which is really silly
+background-image: url("./resources/pattern.jpg")
+should work, but it's not
+
+background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg")
+*/
+h1 {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg")
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+/* unique background colour for headings */
+
+.headinggreen {
+        background-color: mediumspringgreen;
+}
+
+.headingcoral {
+        background-color: lightcoral;
+}
+
+.headingblue {
+        background-color: skyblue;
+}
+
+/* need a way to highlight the prices with some special treatment */
+
+span.price {
+    font-weight: bold;
+    color: blue;
+}
